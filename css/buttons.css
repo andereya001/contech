@@ -1,0 +1,595 @@
+/* Button styles scoped per container - extracted from commoncss.css */
+
+/* customcss1 */
+#button01 .btn-default {
+    position: relative; display: inline-block; font-size: 16px; font-weight: 600; line-height: 1em; text-transform: capitalize; color: var(--primary-color); background: var(--accent-color); border-radius: 5px; padding: 17px 54px 17px 24px; border: none; overflow: hidden; transition: all 0.4s ease-in-out; z-index: 1;
+}
+#button01 .btn-default:hover {
+    color: var(--white-color);
+}
+#button01 .btn-default::before {
+    content: ''; position: absolute; top: 50%; right: 24px; width: 20px; height: 20px; background-image: url('../images/1arrow-primary.svg'); background-repeat: no-repeat; background-position: center center; background-size: cover; transform: translateY(-50%); transition: all 0.4s ease-in-out;
+}
+#button01 .btn-default:hover::before {
+    transform: translateY(-50%) rotate(45deg); filter: brightness(0) invert(1);
+}
+#button01 .btn-default::after {
+    content: ''; position: absolute; top: 0; right: 0; bottom: 0; width: 0; height: 100%; background: var(--primary-color); transition: all 0.4s ease-in-out; z-index: -1;
+}
+#button01 .btn-default:hover::after {
+    right: auto; left: 0; width: 100%;
+}
+#button01 .btn-default.btn-highlighted:hover {
+    color: var(--primary-color);
+}
+#button01 .btn-default.btn-highlighted:hover:before {
+    filter: none;
+}
+#button01 .btn-default.btn-highlighted::after {
+    background: var(--secondary-color);
+}
+#button01 .btn-default {
+    padding: 15px 46px 15px 18px;
+}
+#button01 .btn-default::before {
+    right: 18px; width: 18px; height: 18px;
+}
+#button01 .donate-form .form-group .btn-default {
+    width: 100%; padding: 15px;
+}
+#button01 .donate-form .form-group .btn-default::before {
+    display: none;
+}
+#button01 .footer-newsletter-form .form-group .btn-default {
+    font-size: 14px;
+}
+#button01 .donate-box-prime .donate-form-prime .form-group-btn-prime .btn-default {
+    width: 100%; display: block; text-align: center; padding: 17px;
+}
+#button01 .donate-box-prime .donate-form-prime .form-group-btn-prime .btn-default::before {
+    display: none;
+}
+#button01 .donate-box-prime .donate-form-prime .form-group-btn-prime .btn-default {
+    padding: 15px;
+}
+#button01 .footer-newsletter-form-prime .form-group .btn-default {
+    width: 40px; height: 40px; font-size: 0; padding: 0;
+}
+#button01 .footer-newsletter-form-prime .form-group .btn-default::before {
+    right: 10px;
+}
+#button01 .our-volunteer-donation-box-btn-ultra .btn-default {
+    width: 100%; text-align: center; padding: 17px 20px;
+}
+#button01 .our-volunteer-donation-box-btn-ultra .btn-default::before {
+    display: none;
+}
+#button01 .our-volunteer-donation-box-btn-ultra .btn-default {
+    padding: 15px 20px;
+}
+
+/* customcss13 */
+#button02 .btn-default {
+    position: relative; display: inline-block; font-family: var(--accent-font); font-size: 18px; font-weight: 700; line-height: 1em; text-transform: capitalize; color: var(--white-color); background: var(--accent-color); border-radius: 30px; padding: 16px 55px 16px 24px; border: none; outline: none; overflow: hidden; transition: all 0.4s ease-in-out; z-index: 1;
+}
+#button02 .btn-default:hover {
+    color: var(--white-color);
+}
+#button02 .btn-default.btn-highlighted:hover {
+    color: var(--primary-color);
+}
+#button02 .btn-default::before {
+    content: ''; position: absolute; top: 50%; right: 5px; width: 40px; height: 40px; transform: translateY(-50%); background-color: var(--bg-color); border-radius: 50%; background-image: url('../images/13arrow-primary.svg'); background-repeat: no-repeat; background-position: center center; background-size: 16px auto; transition: all 0.4s ease-in-out;
+}
+#button02 .btn-default:hover::before {
+    background-color: var(--bg-color);
+}
+#button02 .btn-default.btn-highlighted:hover::before {
+    background-color: var(--accent-color); background-image: url('../images/13arrow-white.svg');
+}
+#button02 .btn-default::after {
+    content: ''; position: absolute; top: 0; right: 0; bottom: 0; width: 0; height: 100%; background: var(--primary-color); transition: all 0.4s ease-in-out; z-index: -1;
+}
+#button02 .btn-default:hover::after {
+    right: auto; left: 0; width: 100%;
+}
+#button02 .btn-default.btn-highlighted::after {
+    background: var(--bg-color);
+}
+#button02 .btn-default {
+    font-size: 16px; padding: 15px 50px 15px 20px;
+}
+#button02 .btn-default::before {
+    width: 36px; height: 36px;
+}
+
+/* customcss4 */
+#button03 .btn-default {
+    position: relative; display: inline-block; font-size: 16px; font-weight: 600; line-height: 1em; text-transform: capitalize; color: var(--white-color); background: var(--accent-color); border-radius: 5px; padding: 18px 57px 18px 24px; border: none; overflow: hidden; transition: all 0.4s ease-in-out; z-index: 1;
+}
+#button03 .btn-default::before {
+    content: ''; position: absolute; top: 50%; right: 5px; width: 42px; height: 42px; background-color: var(--accent-secondary-color); background-image: url('../images/4arrow-primary.svg'); background-repeat: no-repeat; background-position: center center; background-size: 20px auto; border-radius: 5px; transform: translateY(-50%); transition: all 0.4s ease-in-out;
+}
+#button03 .btn-default:hover::before {
+    background-color: var(--white-color);
+}
+#button03 .btn-default::after {
+    content: ''; position: absolute; top: 0; right: 0; bottom: 0; width: 0; height: 100%; background: var(--primary-color); transition: all 0.4s ease-in-out; z-index: -1;
+}
+#button03 .btn-default:hover::after {
+    right: auto; left: 0; width: 100%;
+}
+#button03 .btn-default.btn-highlighted:hover {
+    color: var(--primary-color);
+}
+#button03 .btn-default.btn-highlighted:hover:before {
+    background-color: var(--primary-color); background-image: url('../images/4arrow-white.svg');
+}
+#button03 .btn-default.btn-highlighted::after {
+    background-color: var(--white-color);
+}
+#button03 .sidebar-cta-box-btn .btn-default {
+    width: 100%; text-align: center; padding: 18px;
+}
+#button03 .sidebar-cta-box-btn .btn-default::before {
+    display: none;
+}
+#button03 .btn-default {
+    padding: 15px 50px 15px 15px;
+}
+#button03 .btn-default::before {
+    width: 34px; height: 34px; background-size: 16px auto;
+}
+#button03 .sidebar-cta-box-btn .btn-default {
+    padding: 15px;
+}
+#button03 .footer-newsletter-form-prime .btn-default {
+    padding: 22px; font-size: 0;
+}
+
+/* customcss5 */
+#button04 .btn-default {
+    position: relative; display: inline-block; font-size: 16px; font-weight: 700; line-height: 1em; text-transform: capitalize; color: var(--primary-color); background: var(--accent-color); border-radius: 100px; padding: 17px 30px; margin-right: 50px; border: none; transition: all 0.4s ease-in-out; z-index: 1;
+}
+#button04 .btn-default:hover {
+    color: var(--white-color);
+}
+#button04 .btn-default::before {
+    content: ''; position: absolute; top: 50%; right: -50px; width: 50px; height: 50px; border-radius: 50%; background-color: var(--accent-color); background-image: url('../images/5arrow-primary.svg'); background-repeat: no-repeat; background-position: center center; background-size: 24px auto; transform: translateY(-50%); transition: all 0.4s ease-in-out;
+}
+#button04 .btn-default:hover::before {
+    transform: translateY(-50%) rotate(45deg);
+}
+#button04 .btn-default::after {
+    content: ""; position: absolute; top: 0; bottom: 0; left: 50%; right: 50%; opacity: 0; background: var(--accent-secondary-color); border-radius: 100px; transition: all 0.4s ease-in-out; z-index: -1;
+}
+#button04 .btn-default:hover::after {
+    left: 0; right: 0; opacity: 1;
+}
+#button04 .btn-default.btn-highlighted:hover {
+    color: var(--primary-color);
+}
+#button04 .btn-default.btn-highlighted::after {
+    background: var(--white-color);
+}
+#button04 .btn-default {
+    padding: 15px 20px; margin-right: 46px;
+}
+#button04 .btn-default::before {
+    background-size: 22px auto; right: -46px; width: 46px; height: 46px;
+}
+#button04 .faq-cta-btn-prime .btn-default {
+    width: 100%; text-align: center; margin-right: 0;
+}
+#button04 .faq-cta-btn-prime .btn-default::before {
+    display: none; margin-right: 0;
+}
+
+/* customcss23 */
+#button05 .btn-default {
+    position: relative; display: inline-block; font-size: 16px; font-weight: 600; line-height: 1em; text-transform: capitalize; background: var(--accent-color); color: var(--white-color); border-radius: 100px; padding: 17px 30px; margin-right: 36px; border: none; transition: all 0.4s ease-in-out; z-index: 1;
+}
+#button05 .btn-default:hover {
+    color: var(--white-color);
+}
+#button05 .btn-default::before {
+    content: ''; position: absolute; top: 50%; right: -36px; width: 50px; height: 50px; border-radius: 50%; background-color: var(--accent-color); background-image: url('../images/23arrow-white.svg'); background-repeat: no-repeat; background-position: center center; background-size: 22px auto; border: 2px solid var(--bg-color); transform: translateY(-50%); transition: all 0.4s ease-in-out;
+}
+#button05 .btn-default:hover::before {
+    background-color: var(--primary-color); transform: translateY(-50%) rotate(45deg);
+}
+#button05 .btn-default::after {
+    content: ''; position: absolute; top: 0; bottom: 0; left: 50%; right: 50%; width: 0; height: 100%; border-radius: 100px; opacity: 0; background: var(--primary-color); transition: all 0.4s ease-in-out; z-index: -1;
+}
+#button05 .btn-default:hover:after {
+    width: 100%; left: 0; right: 0; opacity: 1;
+}
+#button05 .bg-section .btn-default:before {
+    border-color: var(--white-color);
+}
+#button05 .btn-default.btn-highlighted:hover {
+    color: var(--primary-color);
+}
+#button05 .btn-default.btn-highlighted:before {
+    border-color: var(--primary-color);
+}
+#button05 .btn-default.btn-highlighted:hover:before {
+    background-color: var(--white-color); background-image: url('../images/23arrow-primary.svg');
+}
+#button05 .btn-default.btn-highlighted::after {
+    background-color: var(--white-color);
+}
+#button05 .btn-default {
+    padding: 15px 20px;
+}
+#button05 .btn-default::before {
+    background-size: 20px auto; width: 46px; height: 46px;
+}
+#button05 .footer-newsletter-form-royal .form-group button.btn-default {
+    max-width: 33%; padding: 17px 20px; margin-right: 0;
+}
+#button05 .footer-newsletter-form-royal .form-group button.btn-default::before {
+    display: none;
+}
+#button05 .footer-newsletter-form-royal .form-group button.btn-default {
+    padding: 15px 17px;
+}
+#button05 .footer-newsletter-form-royal .form-group button.btn-default {
+    font-size: 12px; padding: 8px 10px;
+}
+#button05 .pricing-item-btn-prime .btn-default {
+    display: block; text-align: center;
+}
+
+/* customcss8 */
+#button06 .btn-default {
+    position: relative; display: inline-block; font-size: 16px; font-weight: 700; line-height: 1em; text-transform: capitalize; background: linear-gradient(to right, var(--accent-color) 0%, var(--accent-secondary-color) 50%, var(--accent-color) 100%); background-size: 200% auto; color: var(--white-color); border-radius: 100px; padding: 18px 55px 18px 24px; border: none; overflow: hidden; box-shadow: none; outline: none; transition: all 0.4s ease-in-out; z-index: 0;
+}
+#button06 .btn-default:hover {
+    background-position: right center;
+}
+#button06 .btn-default::before {
+    content: ''; position: absolute; top: 50%; right: 6px; width: 40px; height: 40px; transform: translateY(-50%); background-color: var(--white-color); background-image: url('../images/8arrow-primary.svg'); background-repeat: no-repeat; background-position: center center; background-size: 14px auto; border-radius: 50%; transition: all 0.4s ease-in-out;
+}
+#button06 .btn-default:hover::before {
+    transform: translateY(-50%) rotate(45deg);
+}
+#button06 .appointment-form-btn .btn-default {
+    width: 100%; padding: 18px 24px;
+}
+#button06 .appointment-form-btn .btn-default::before {
+    display: none;
+}
+#button06 .btn-default {
+    padding: 15px 50px 15px 15px;
+}
+#button06 .btn-default::before {
+    width: 36px; height: 36px; right: 5px; background-size: 12px auto;
+}
+#button06 .appointment-form-btn .btn-default {
+    padding: 15px;
+}
+#button06 .footer-newsletter-form-elite .form-group .btn-default {
+    width: 48px; height: 48px; font-size: 0; padding: 0;
+}
+#button06 .pricing-item-btn-prime .btn-default {
+    width: 100%; padding: 18px 24px;
+}
+#button06 .pricing-item-btn-prime .btn-default::before {
+    display: none;
+}
+#button06 .pricing-item-btn-prime .btn-default {
+    padding: 15px;
+}
+
+/* customcss9 */
+#button07 .btn-default {
+    position: relative; display: inline-block; font-size: 16px; font-weight: 600; line-height: 1em; text-transform: capitalize; color: var(--white-color); background: var(--accent-color); border-radius: 5px; padding: 17px 65px 17px 20px; border: none; outline: none; overflow: hidden; transition: all 0.4s ease-in-out; z-index: 0;
+}
+#button07 .btn-default::before {
+    content: ''; position: absolute; top: 50%; right: 5px; width: 40px; height: 40px; transform: translateY(-50%); background-color: var(--white-color); border-radius: 5px; background-image: url('../images/9arrow-primary.svg'); background-repeat: no-repeat; background-position: center center; background-size: 14px auto; transition: all 0.4s ease-in-out;
+}
+#button07 .btn-default::after {
+    content: ''; position: absolute; top: 0; right: 0; bottom: 0; width: 0; height: 100%; background: var(--primary-color); transition: all 0.4s ease-in-out; z-index: -1;
+}
+#button07 .btn-default:hover::after {
+    right: auto; left: 0; width: 100%;
+}
+#button07 .btn-default.btn-highlighted:hover {
+    color: var(--primary-color);
+}
+#button07 .btn-default.btn-highlighted:hover::before {
+    background-color: var(--accent-color); background-image: url('../images/9arrow-white.svg');
+}
+#button07 .btn-default.btn-highlighted::after {
+    background: var(--white-color);
+}
+#button07 .btn-default {
+    padding: 15px 52px 15px 15px;
+}
+#button07 .btn-default::before {
+    width: 36px; height: 36px;
+}
+#button07 .donation-form .form-group .btn-default {
+    font-size: 0; width: 36px; height: 36px; padding: 0;
+}
+#button07 .donation-form .form-group .btn-default::before {
+    right: 0;
+}
+#button07 .donate-box-gold .donate-form-gold .form-group-btn-gold .btn-default {
+    width: 100%; display: block; text-align: center; padding: 17px;
+}
+#button07 .donate-box-gold .donate-form-gold .form-group-btn-gold .btn-default::before {
+    display: none;
+}
+#button07 .footer-newsletter-form-gold .form-group button.btn-default {
+    padding: 17px 20px;
+}
+#button07 .footer-newsletter-form-gold .form-group button.btn-default::before {
+    display: none;
+}
+#button07 .donate-box-gold .donate-form-gold .form-group-btn-gold .btn-default {
+    padding: 15px;
+}
+#button07 .footer-newsletter-form-gold .form-group button.btn-default {
+    padding: 15px 20px;
+}
+#button07 .footer-newsletter-form-gold .form-group button.btn-default {
+    font-size: 14px; padding: 12px 15px;
+}
+#button07 .donate-box-silver .donate-form-silver .form-group-btn-silver .btn-default {
+    width: 100%; display: block; text-align: center; padding: 17px;
+}
+#button07 .donate-box-silver .donate-form-silver .form-group-btn-silver .btn-default::before {
+    display: none;
+}
+#button07 .donate-box-silver .donate-form-silver .form-group-btn-silver .btn-default {
+    padding: 15px;
+}
+
+
+
+/* customcss12 */
+#button08 .btn-default {
+    position: relative; display: inline-block; font-size: 16px; font-weight: 600; line-height: 1em; text-transform: capitalize; background: var(--accent-color); color: var(--white-color); border-radius: 100px; padding: 17px 50px 17px 24px; border: none; overflow: hidden; box-shadow: none; outline: none; transition: all 0.4s ease-in-out; z-index: 0;
+}
+#button08 .btn-default:hover {
+    color: var(--accent-color);
+}
+#button08 .btn-default::before {
+    content: ''; position: absolute; top: 50%; right: 10px; width: 30px; height: 30px; transform: translateY(-50%); background-color: var(--accent-secondary-color); background-image: url('../images/12arrow-primary.svg'); background-repeat: no-repeat; background-position: center center; background-size: 18px auto; border-radius: 50%; transition: all 0.4s ease-in-out;
+}
+#button08 .btn-default:hover:before {
+    background-color: var(--accent-color); background-image: url('../images/12arrow-white.svg'); transform: translateY(-50%) rotate(45deg);
+}
+#button08 .btn-default::after {
+    content: ''; position: absolute; top: 0; right: 0; bottom: 0; width: 0; height: 100%; background: var(--accent-secondary-color); transition: all 0.4s ease-in-out; z-index: -1;
+}
+#button08 .btn-default:hover::after {
+    right: auto; left: 0; width: 100%;
+}
+#button08 .btn-default.btn-white {
+    background-color: var(--secondary-color); color: var(--primary-color);
+}
+#button08 .pricing-item-btn .btn-default {
+    width: 100%; padding: 17px 24px; text-align: center;
+}
+#button08 .pricing-item-btn .btn-default:before {
+    display: none;
+}
+#button08 .btn-default {
+    padding: 15px 46px 15px 16px;
+}
+#button08 .btn-default::before {
+    width: 26px; height: 26px; background-size: 14px auto;
+}
+#button08 .pricing-item-btn .btn-default {
+    padding: 15px 16px;
+}
+
+
+/* customcss17 */
+#button09 .btn-default {
+    position: relative; display: inline-block; font-size: 16px; font-weight: 600; line-height: 1em; text-transform: capitalize; background: var(--accent-color); color: var(--primary-color); border-radius: 100px; padding: 17px 20px 17px 55px; border: none; overflow: hidden; box-shadow: none; outline: none; transition: all 0.4s ease-in-out; z-index: 0;
+}
+#button09 .btn-default:hover {
+    padding: 17px 55px 17px 20px; color: var(--white-color);
+}
+#button09 .btn-default::before {
+    content: ''; position: absolute; top: 50%; left: 5px; width: 40px; height: 40px; transform: translateY(-50%); background-color: var(--primary-color); background-image: url('../images/17arrow-white.svg'); background-repeat: no-repeat; background-position: center center; background-size: 18px auto; border-radius: 50%; transition: all 0.4s ease-in-out;
+}
+#button09 .btn-default:hover::before {
+    left: 100%; transform: translate(calc(100% - 85px), -50%); background-color: var(--white-color); background-image: url('../images/17arrow-primary.svg');
+}
+#button09 .btn-default::after {
+    content: ''; display: block; position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 0; height: 100%; background: var(--primary-color); border-radius: 100px; transition: all 0.4s ease-in-out; z-index: -1;
+}
+#button09 .btn-default:hover::after {
+    width: 100%; left: 0;
+}
+#button09 .btn-default.btn-white {
+    background-color: var(--white-color);
+}
+#button09 .btn-default.btn-white:after {
+    background: var(--accent-color);
+}
+#button09 .btn-default.btn-white:hover,
+	.btn-default.btn-highlighted:hover {
+    color: var(--primary-color);
+}
+#button09 .btn-default.btn-white:hover:before,
+	.btn-default.btn-highlighted:hover:before {
+    background-color: var(--primary-color); background-image: url('../images/17arrow-white.svg');
+}
+#button09 .btn-default.btn-highlighted::after {
+    background-color: var(--white-color);
+}
+#button09 .btn-default.btn-light {
+    background-color: var(--dark-divider-color); color: var(--white-color); backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);
+}
+#button09 .btn-default.btn-light:before {
+    background-color: var(--accent-color); background-image: url('../images/17arrow-primary.svg');
+}
+#button09 .form-button .btn-default:hover,
+	.form-button .btn-default {
+    padding: 14px 25px;
+}
+#button09 .form-button .btn-default:before {
+    display: none;
+}
+#button09 .pricing-item-btn .btn-default {
+    width: 100%; text-align: center; padding: 17px 20px;
+}
+#button09 .pricing-item-btn .btn-default:before {
+    display: none;
+}
+#button09 .fleet-category-btn .btn-default {
+    padding: 14px 20px;
+}
+#button09 .fleet-category-btn .btn-default::before {
+    display: none;
+}
+#button09 .fleet-detail-box-btn .btn-default {
+    width: 100%; text-align: center; padding: 17px 20px;
+}
+#button09 .fleet-detail-box-btn .btn-default::before {
+    display: none;
+}
+#button09 .btn-default {
+    padding: 15px 15px 15px 50px;
+}
+#button09 .btn-default:hover {
+    padding: 15px 50px 15px 15px;
+}
+#button09 .btn-default::before {
+    height: 36px; width: 36px; background-size: 16px auto; left: 5px;
+}
+#button09 .btn-default:hover::before {
+    left: 100%; transform: translate(calc(100% - 77px), -50%);
+}
+#button09 .pricing-item-btn .btn-default {
+    padding: 15px;
+}
+#button09 .fleet-category-btn .btn-default {
+    padding: 12px 16px;
+}
+#button09 .fleet-detail-box-btn .btn-default {
+    padding: 15px;
+}
+#button09 .form-button .btn-default,
+		.form-button {
+    width: 100%;
+}
+#button09 .pricing-item-btn-gold .btn-default {
+    width: 100%; padding: 17px 20px; text-align: center;
+}
+#button09 .pricing-item-btn-gold .btn-default:before {
+    display: none;
+}
+#button09 .footer-newsletter-form-gold .btn-default {
+    max-width: 42%; padding: 17px 20px; font-weight: 700;
+}
+#button09 .footer-newsletter-form-gold .btn-default::before {
+    display: none;
+}
+#button09 .pricing-item-btn-gold .btn-default {
+    padding: 15px;
+}
+#button09 .footer-newsletter-form-gold .btn-default {
+    padding: 15px;
+}
+#button09 .footer-newsletter-form-gold .btn-default {
+    font-size: 14px;
+}
+
+/* customcss22 */
+#button10 .btn-default {
+    position: relative; display: inline-block; font-size: 16px; font-weight: 700; line-height: 1em; text-transform: capitalize; background: var(--accent-color); color: var(--white-color); border-radius: 100px; padding: 17px 24px 17px 55px; border: none; overflow: hidden; box-shadow: none; outline: none; transition: all 0.4s ease-in-out; z-index: 0;
+}
+#button10 .btn-default:hover {
+    padding: 17px 55px 17px 24px;
+}
+#button10 .btn-default.btn-white {
+    color: var(--primary-color); background-color: var(--white-color);
+}
+#button10 .btn-default::before {
+    content: ''; position: absolute; top: 50%; left: 5px; width: 40px; height: 40px; transform: translateY(-50%); background-color: var(--white-color); border-radius: 50%; background-image: url('../images/22arrow-primary.svg'); background-repeat: no-repeat; background-position: center center; background-size: 14px auto; transition: all 0.4s ease-in-out;
+}
+#button10 .btn-default:hover::before {
+    left: 100%; transform: translate(calc(100% - 85px), -50%) rotate(45deg);
+}
+#button10 .btn-default.btn-white::before {
+    background-color: var(--accent-color); background-image: url('../images/22arrow-white.svg');
+}
+#button10 .btn-default::after {
+    content: ''; display: block; position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 0; height: 100%; background: var(--primary-color); border-radius: 100px; transition: all 0.4s ease-in-out; z-index: -1;
+}
+#button10 .btn-default:hover:after {
+    left: 0; width: 100%;
+}
+#button10 .btn-default.btn-highlighted:hover {
+    color: var(--primary-color);
+}
+#button10 .btn-default.btn-highlighted:hover:before {
+    background-color: var(--accent-color); background-image: url('../images/22arrow-white.svg');
+}
+#button10 .btn-default.btn-white::after,
+	.btn-default.btn-highlighted::after {
+    background-color: var(--secondary-color);
+}
+#button10 .btn-default {
+    padding: 15px 15px 15px 50px;
+}
+#button10 .btn-default:hover {
+    padding: 15px 50px 15px 15px;
+}
+#button10 .btn-default::before {
+    height: 36px; width: 36px; left: 5px;
+}
+#button10 .btn-default:hover::before {
+    left: 100%; transform: translate(calc(100% - 77px), -50%);
+}
+#button10 .pricing-item-btn-elite .btn-default {
+    width: 100%; text-align: center;
+}
+#button10 .pricing-item-btn-royal .btn-default {
+    width: 100%; text-align: center; padding: 17px;
+}
+#button10 .pricing-item-btn-royal .btn-default::before {
+    display: none;
+}
+#button10 .pricing-item-btn-royal .btn-default {
+    padding: 15px;
+}
+
+/* customcss21 */
+#button11 .btn-default {
+    position: relative; display: inline-block; font-family: var(--accent-font); font-size: 16px; font-weight: 400; line-height: 1.25em; text-transform: capitalize; background: var(--accent-color); color: var(--white-color); border-radius: 100px; padding: 15px 24px; margin-right: 50px; border: none; transition: all 0.4s ease-in-out; z-index: 1;
+}
+#button11 .btn-default:hover {
+    background: var(--accent-secondary-color);
+}
+#button11 .btn-default::before {
+    content: ''; position: absolute; top: 50%; right: -50px; width: 50px; height: 50px; border-radius: 50%; background-color: var(--accent-secondary-color); background-image: url('../images/21arrow-white.svg'); background-repeat: no-repeat; background-position: center center; background-size: 24px auto; transform: translateY(-50%); transition: all 0.4s ease-in-out;
+}
+#button11 .btn-default:hover:before {
+    transform: translateY(-50%) rotate(45deg); background-color: var(--accent-color);
+}
+#button11 .btn-default::after {
+    content: ''; position: absolute; top: 0; bottom: 0; left: 50%; right: 50%; width: 0; height: 100%; border-radius: 100px; opacity: 0; background: var(--accent-secondary-color); transition: all 0.4s ease-in-out; z-index: -1;
+}
+#button11 .btn-default:hover:after {
+    width: 100%; left: 0; right: 0; opacity: 1;
+}
+#button11 .btn-default {
+    padding: 13px 18px; margin-right: 46px;
+}
+#button11 .btn-default::before {
+    right: -46px; width: 46px; height: 46px; background-size: 22px auto;
+}
+#button11 .pricing-item-btn-prime .btn-default {
+    width: 100%; text-align: center; margin-right: 0;
+}
+#button11 .pricing-item-btn-prime .btn-default::before {
+    display: none;
+}

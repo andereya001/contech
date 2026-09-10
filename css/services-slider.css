@@ -1,0 +1,114 @@
+/* Shared swiper styles for all services demo pages */
+
+/* Keep pagination in normal document flow below the slides (not overlaid on cards) */
+.servicescard .service-item-slider .service-pagination,
+.servicescard .service-item-slider .service-pagination.swiper-pagination-bullets,
+.servicescard .service-item-slider-prime .service-pagination-prime,
+.servicescard .service-item-slider-prime .service-pagination-prime.swiper-pagination-bullets {
+	position: static !important;
+	bottom: auto !important;
+	left: auto !important;
+	right: auto !important;
+	top: auto !important;
+	transform: none !important;
+	width: 100%;
+	margin-top: 56px;
+	padding-top: 0;
+	text-align: center;
+	line-height: 1;
+}
+
+.servicescard .service-item-slider .swiper,
+.servicescard .service-item-slider-prime .swiper {
+	overflow: hidden;
+}
+
+.servicescard .service-item-slider .swiper-wrapper,
+.servicescard .service-item-slider-prime .swiper-wrapper {
+	margin-bottom: 0;
+	align-items: stretch;
+}
+
+.servicescard .service-item-slider .swiper-slide,
+.servicescard .service-item-slider-prime .swiper-slide,
+.case-study-slider-stone .swiper-slide {
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	align-self: stretch;
+}
+
+/* Preserve card height + internal top/bottom spacing inside slides */
+.servicescard .service-item-slider .swiper-slide .post-item,
+.servicescard .service-item-slider .swiper-slide .team-item,
+.servicescard .service-item-slider .swiper-slide .team-item-ultra,
+.servicescard .service-item-slider .swiper-slide .service-item,
+.servicescard .service-item-slider .swiper-slide .service-item-gold,
+.servicescard .service-item-slider .swiper-slide .service-item-stone,
+.servicescard .service-item-slider .swiper-slide .service-item-ultra,
+.servicescard .service-item-slider .swiper-slide .amenity-item,
+.servicescard .service-item-slider .swiper-slide .our-apartment-item-prime,
+.servicescard .service-item-slider .swiper-slide .service-item-metal,
+.servicescard .service-item-slider .swiper-slide .service-item-silver,
+.servicescard .service-item-slider .swiper-slide .case-study-item,
+.servicescard .service-item-slider-prime .swiper-slide .service-item-prime {
+	margin-bottom: 0;
+	width: 100%;
+	flex: 1 1 auto;
+	height: 100%;
+}
+
+.servicescard .service-item-slider .service-pagination .swiper-pagination-bullet,
+.servicescard .service-item-slider-prime .service-pagination-prime .swiper-pagination-bullet {
+	position: relative;
+	height: 10px;
+	width: 10px;
+	background: var(--divider-color);
+	opacity: 1;
+	margin: 0 5px;
+	border-radius: 10px;
+	transition: all 0.4s ease-in-out;
+}
+
+.servicescard .service-item-slider .service-pagination .swiper-pagination-bullet-active {
+	background: var(--accent-color);
+	width: 34px;
+}
+
+.servicescard .service-item-slider-prime .service-pagination-prime .swiper-pagination-bullet-active {
+	background: var(--accent-secondary-color);
+	width: 40px;
+}
+
+.service-item-slider-prime .swiper-slide .service-item-prime {
+	transform: scale(0.95);
+}
+
+.service-item-slider-prime .swiper-slide.swiper-slide-next .service-item-prime {
+	transform: scale(1);
+}
+
+.our-blog .section-footer-text,
+.our-team .section-footer-text,
+.our-team-ultra .section-footer-text,
+.our-service-ultra .section-footer-text,
+.our-amenities .section-footer-text,
+.our-apartments-prime .section-footer-text,
+.our-case-study .section-footer-text,
+.our-services .section-footer-text,
+.our-services-prime .section-footer-text,
+.our-services-gold .section-footer-text,
+.our-services-stone .section-footer-text,
+.our-services-metal .section-footer-text,
+.our-services-silver .section-footer-text {
+	margin-top: 40px;
+}
+
+@media only screen and (max-width: 767px) {
+	.servicescard .service-item-slider .service-pagination,
+	.servicescard .service-item-slider .service-pagination.swiper-pagination-bullets,
+	.servicescard .service-item-slider-prime .service-pagination-prime,
+	.servicescard .service-item-slider-prime .service-pagination-prime.swiper-pagination-bullets {
+		margin-top: 40px;
+	}
+}

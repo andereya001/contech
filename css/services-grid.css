@@ -1,0 +1,39 @@
+/* Grid layout fixes for 02services pages (services-template2 structure) */
+
+.service-item-list-elite {
+	row-gap: 30px;
+}
+
+.service-item-list-elite > .col-xl-4 {
+	display: flex;
+	flex-direction: column;
+}
+
+.service-item-list-elite > .col-xl-4 > .post-item,
+.service-item-list-elite > .col-xl-4 > .team-item,
+.service-item-list-elite > .col-xl-4 > .team-item-ultra,
+.service-item-list-elite > .col-xl-4 > .service-item,
+.service-item-list-elite > .col-xl-4 > .service-item-gold,
+.service-item-list-elite > .col-xl-4 > .service-item-stone,
+.service-item-list-elite > .col-xl-4 > .service-item-ultra,
+.service-item-list-elite > .col-xl-4 > .amenity-item,
+.service-item-list-elite > .col-xl-4 > .our-apartment-item-prime,
+.service-item-list-elite > .col-xl-4 > .service-item-metal,
+.service-item-list-elite > .col-xl-4 > .service-item-silver,
+.service-item-list-elite > .col-xl-4 > .case-study-item,
+.service-item-list-elite > .col-xl-4 > .service-item-prime {
+	width: 100%;
+	flex: 1 1 auto;
+	margin-bottom: 0;
+	height: 100%;
+}
+
+.service-item-list-elite .section-footer-text {
+	margin-top: 40px;
+}
+
+@media only screen and (max-width: 991px) {
+	.service-item-list-elite {
+		row-gap: 24px;
+	}
+}
